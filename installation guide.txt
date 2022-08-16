@@ -1,0 +1,5 @@
+pyinstaller --onefile --icon=icon.ico reaperinfoscraper.py
+
+THIS WORKS WITH ICON: pyinstaller -F -i "icon.ico" reaperinfoscraper.py
+
+THIS WORKS NO MATTER: pyinstaller --onefile reaperinfoscraper.py
